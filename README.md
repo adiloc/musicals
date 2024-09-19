@@ -30,11 +30,14 @@ This project sets up an Nginx server that serves a "Hello World!" message and a 
    cd musicals
 
 2. Run Docker Compose:
+   ```bash
    docker-compose up
 
 3. Access the Nginx "Hello World!" page in your browser:
+   ```bash
    http://localhost:8080
 
 4. Interact with LocalStack (e.g., creating an S3 bucket): 
+   ```bash
    aws --endpoint-url=http://localhost:4566 s3 mb s3://my-local-bucket
  
