@@ -1,0 +1,8 @@
+# Ignore Docker-related files
+localstack/data/
+*.log
+.env
+
+# Ignore system files
+.DS_Store
+*.swp
